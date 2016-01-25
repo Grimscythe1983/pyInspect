@@ -321,7 +321,6 @@ def main():
                     doc_string = doc_string.strip("'''")
                     continuing_doc = True
                     hunt_doc = False
-    print CLASSES_FOUND
     in_file.close()  # close the file
     build_html(in_name)  # build the html file
 
