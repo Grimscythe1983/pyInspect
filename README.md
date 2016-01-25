@@ -1,7 +1,7 @@
 # pyInspect
 Create a class diagram with docstring and variable descriptions.
 
-pyInspect Version 0.7
+pyInspect Version 0.7a
 ---------------------------
 Copyright (C) 2016 Damian Chrzanowski
 pjdamian.chrzanowski@gmail.com
@@ -12,11 +12,13 @@ Creates a html file that contains all (almost) information about your .py code's
 All information is extracted from the docstrings and from comment's in case of __init__ method's variables.
 
 Usage:
+ - First, if you do not have EasyGui(c). Get it here https://sourceforge.net/projects/easygui/
+ - Alternatively get EasyGui(c) through pip. Go to your command prompt (console in linux) and type in: pip install easygui
  - Windows:
  If you have python 2.7 installed, just double click the pyInspect.py file to launch the program.
  Executable format coming soon.
  - Linux:
- Navigate to the folder in which you have your pyInspect.py file. Right click and open the terminal window here.
+ Navigate to the folder in which you have your pyInspect.py file. Right click and select 'open the terminal window here'.
  Type in python pyInspect.py.
 
 TODO:
@@ -26,6 +28,8 @@ TODO:
 
 Change Log:
 
+- version 0.7a
+    - added the .py file name to the output html file name.
 - version 0.7
     - handles non flake8 docstrings.
 - version 0.6
