@@ -150,7 +150,7 @@ fieldset {width: 210px; float: left; border: 1px solid grey;}
         out_str += '\n</fieldset>'  # close the class's section
     out_str += '\n</body>'  # close the html's body section
     # choose a file
-    out_name = eg.filesavebox(msg='Please select a file', title=PROG_TITLE, default='class_diagram.html')
+    out_name = eg.filesavebox(msg='Please select a file', title=PROG_TITLE, default=in_name.split('.')[0] + 'class_diagram.html')
     if out_name is None or out_name == '.':  # if no file has been selected, quit
         quit()
     out_file = open(out_name, 'w')  # open file for saving, wiping its content if it already exists
