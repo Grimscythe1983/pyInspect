@@ -1,5 +1,5 @@
 # pyInspect
-Create a class diagram with docstring and variable descriptions.
+Create a simple class diagram with docstring and variable descriptions.
 
 pyInspect Version 0.7a
 ---------------------------
@@ -9,7 +9,7 @@ License : GNU Public License v3
 
 Overview:
 Creates a html file that contains all (almost) information about your .py code's classes and their methods.
-All information is extracted from the docstrings and from comment's in case of __init__ method's variables.
+All information is extracted from the docstrings and from comments in case of __init__ method's variables.
 
 Usage:
  - First, if you do not have EasyGui(c). Get it here https://sourceforge.net/projects/easygui/
